@@ -1,0 +1,46 @@
+
+.first{ position:absolute; border:50px;height:200px; width:1200px; margin-top:50px; margin-left:80px;  }
+.aa{ position:absolute; border:50px;height:60px; width:1200px; margin-top:170px; margin-left:80px; background-color:#333333;  }
+.aa ul li{list-style-type:none; display:inline; padding:0;} 
+.aa ul li a:hover {background-color:#006633; text-decoration:none;color:#FFCC33; }
+
+.aa  ul li a {color: #FFFFFF;background: #006633;display:inline; height:40px; line-height:95px;
+ padding:17px 70px 20px 70px; text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:20px; }
+
+.aa ul li:hover a {background-color:#009933; text-decoration:none; color:#FFCC33;} 
+
+#foot1 {position:absolute; border:50px;height:220px; width:1350px; margin-top:370px; margin-left:-10px; background-color:#009966; }
+#foot2{position:absolute; border:50px;height:50px; width:1350px; margin-top:585px; margin-left:-10px; background-color:#006633;}
+#same{ font-family:Geneva; font-size:18px}
+
+.menus {float:; padding:0; margin:0;color: #FFFFFF;background: #068040;width:850px; margin-top:100px; margin-left:250px; }
+.menus  a{
+font-family:"Times New Roman", Times, serif;
+font-style:normal;
+font-weight:normal;
+font-size:20px;
+color: #FFFFFF;
+background-color: #008040;
+text-decoration: none;
+}
+.menus ul {list-style-type:none;padding:0; margin:0;}
+.menus ul li {float:left; position:relative; z-index:auto; z-index:1000 ;}
+.menus ul li a {color: #FFFFFF;background: #008040; float:left ; display:block; width:auto; height:30px;  padding:10px 50px 10px 50px; }
+
+.menus ul li ul {display:none; border:none;color: #FFFFFF;background: #008040; }
+.menus ul li:hover a {background: #008040; color:#FFCC33; } 
+.menus ul li:hover ul {display:block;  position:absolute;  top:40px; margin-top:10px; }
+.menus ul li:hover ul li a {display:block; width:130px; height:auto; line-height:1.3em; 
+padding:5px 10px 5px 10px; color:#FFFFFF;}
+ 
+.menus ul li:hover ul li a:hover {background-color:#000000;color:#FFCC33;}
+.menus ul li a:hover {background-color:#000000;color:#FFCC33;}
+.menus ul li a:hover ul {display:block; position:absolute;  top:29px;  }
+ 
+.menus ul li a:hover ul li a {display:block;  padding:4px 16px 4px 16px;
+background-color:#000000;  color:#FFFFFF;} 
+.menus ul li a:hover ul li a:hover {background-color:#000000;  } 
+
+
+
+
